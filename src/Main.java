@@ -14,7 +14,7 @@ public class Main {
         int toplam = 0; // Bölünen sayıların toplamını tutacak değişken
         int adet = 0;   // Bölünen sayı adedini tutacak değişken
 
-        for (int i = 1; i < sayi; i++) {
+        for (int i = 0; i < sayi; i++) {
             if(i%12==0){
                 System.out.println(i+" ");
                 toplam+=i;
